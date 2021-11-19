@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Child Rights | About</title>
+<link rel = "icon" href = "images/logo.png"  type = "image/x-icon">
+<link rel="stylesheet" href="css/about.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-card" id="myNavbar">
+          <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="images/logo.png" alt="" style="width: 30px;">Child Rights</a>
+          <div class="w3-right w3-hide-small"><a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+            <a href="contact_us.html" class="w3-bar-item w3-button">CONTACT US</a>
+            <a href="donate.html" class="w3-bar-item w3-button">DONATE</a>
+          </div>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="w3-sidebar w3-black w3-bar-block w3-collapse w3-card w3-animate-right" style="width:200px;right:0;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+            <a href="contact_us.html" class="w3-bar-item w3-button">CONTACT US</a>
+            <a href="donate.html" class="w3-bar-item w3-button">DONATE</a>
+      </div>
+  <div class="About">
+    About Us
+  </div>
+    <h2>Who We Are</h2>
+  <div class="About_text">
+          <p>Child Rights is a students and youngsters driven charitable orgnisation, which is known for their work for the underpriviledged. 
+        Child Rights innovative idea for raising funds to serve the needs of the underpriviledged is what the differentiates then from 
+        other main stream funded NGO's.</p>
+      <p>We work on the basis of the UN convention on the rights of the child and are politically and religiously unattached and independent.
+      </p><p>Our presence is spread throughout the nation and we have a solid economy.</p>
+    <h2>What We Do</h2>
+    <p>
+      The funds raised by Child Rights go to a common pool and help us amplify and allocate funds on issues that have lasting impact on
+       children’s rights.
+    </p>
+  </div>
+<footer>
+    <p>© Copyrights. Learn Child. All Rights Reserved.</p>
+</footer>
+<!-- Java Script -->
+<script>
+    var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
